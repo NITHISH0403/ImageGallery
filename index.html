@@ -23,99 +23,51 @@
     <div class="body">
         <div class="image">
             <img alt="web App Development" src="pexels-pixabay-147413.jpg" onclick="openImg(this)">
-            <p class="cost">$295.00</p>
             <p>Learn web Application Development</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="Frontend Development" src="pexels-pixabay-270366.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$190.00</p>
             <p>Learn Frontend<br>Development</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="Data Analytics" src="pexels-lukas-590016.jpg" onclick="openImg(this)">
-            <p class="cost">$190.00</p>
             <p>Data<br>Analytics</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="web Design" src="pexels-tranmautritam-326503.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$140.00</p>
             <p>Web<br>Design</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="HTML" src="pexels-realtoughcandycom-11035371.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn HTML</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="CSS" src="pexels-realtoughcandycom-11035386.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn CSS</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="JavaScript" src="pexels-markus-spiske-1089440.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn JavaScript</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="SQL" src="pexels-christina-morillo-1181354.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn SQL</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="Python" src="pexels-christina-morillo-1181359.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn Python</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="PHP" src="pexels-realtoughcandycom-11035390.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn PHP</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="React.js" src="pexels-realtoughcandycom-11035471.jpg" height="150px" onclick="openImg(this)">
-            <p class="cost">$95.00</p>
             <p>Learn React.js</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
         <div class="image">
             <img alt="C++" src="CPP_Tutorial.png" height="150px" onclick="openImg(this)">
-            <p class="cost">$45.00</p>
             <p>Learn C++</p>
-            <div class="add">
-                <h3>Add to Cart</h3>
-            </div>
         </div>
     </div>
     <div id="overlay">
@@ -127,7 +79,8 @@
     <script>
         function openImg(n){
             let selectImage = n;
-            let image = selectImage.src.split("/")[3];
+            console.log(selectImage);
+            let image = selectImage.src.split("/")[4];
             console.log(image);
             document.getElementById("sltimage").src = image;
             document.getElementById("overlay").style.display = "block";
