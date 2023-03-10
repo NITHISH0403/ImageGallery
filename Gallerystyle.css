@@ -64,7 +64,7 @@
 }
 .body .image p{
     margin: 10px 0;
-    font-family: "Bookman Old Style", Arial, Verdana, Tahoma;
+    font-family: "Bookman Old Style", Arial, sans-serif;
     text-align: center;
 }
 .body .image .cost{
@@ -73,7 +73,7 @@
 .body .image .add{
     background-color: rgb(56, 161, 56);
     color: white;
-    font-family: "Arial Rounded MT", Arial, Verdana, Tahoma;
+    font-family: "Arial Rounded MT", Arial, sans-serif;
     border: 1px solid rgb(56, 161, 56);
     border-radius: 5px;
     padding: 5px;
@@ -108,7 +108,7 @@
     background-color: black;
     margin: -750px 1350px;
     color: white;
-    font-family: "Arial Rounded MT", Arial, Verdana, Tahoma;
+    font-family: "Arial Rounded MT", Arial, sans-serif;
     font-size: 20px;
     cursor: pointer;
 }
